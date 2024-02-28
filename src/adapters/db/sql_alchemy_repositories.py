@@ -1,0 +1,4 @@
+from adapters.db.repositories.sql_alchemy_qr_code_repository import SQLAlchemyQrCodeRepository
+from adapters.db.sql_alchemy_factory import db
+
+sqlAlchemyQrCodeRepository = SQLAlchemyQrCodeRepository(database=db)
